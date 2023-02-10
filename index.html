@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Percentages</title>
+</head>
+<body class="bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col text-center pt-3">
+                <div class="card">
+                    <h1 class="display-1">Pupil Percentages</h1>
+                    <p class="">Enter Pupil Mark and Assessment total mark </p>
+                    <form>
+                        <div class="form-group">
+                            <input type="text" id="pupilMark" placeholder="Enter a pupil mark">
+                            <input type="text" id="assessmentMarks" placeholder="Enter assessment mark">
+                            <button id="submit">Submit</button>
+                        </div>
+                    </form>
+                    <div class="feedback mt-4 mb-5">
+                        <h3 id="feedback"style="display: none"></h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pt-3">
+                <div class="card">
+                    <h2 class="h2">Percentage list</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" id="total-marks" placeholder="Enter total assessment mark">
+                <button id="list-submit">Submit</button>
+            </div>
+        </form>
+            <table id="mark-table" class="table table-sm">
+                <thead>
+                  <tr>
+                    <th scope="col">Pupil Mark</th>
+                    <th scope="col">Assessment Mark</th>
+                    <th scope="col">Percentage</th>
+                    <th scope="col">Grade</th>
+                  </tr>
+                </thead>
+              </table>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        
+        
+    </div>
+
+
+
+<script src="app.js"></script>
+</html>
