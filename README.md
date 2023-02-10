@@ -1,4 +1,4 @@
-# StudentMarkPercentageTable
+# Student Mark Percentage Table
 A simple program to generate a table of percentages based on the number of marks in an exam.
 
 Usually when marking pupil work, I use a spreadsheet with a list of percentages based on the total marks in a test so I can quickly reference the percentage by mark
