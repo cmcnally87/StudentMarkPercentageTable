@@ -5,3 +5,4 @@ Usually when marking pupil work, I use a spreadsheet with a list of percentages 
 Got annoyed having to updated the spreadsheet for each assessment I was marking so I made this webpage to do the work for me.
 
 May or may not update in future to add input validation and improve visuals.
+-If useful, I might make this into an android app
