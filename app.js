@@ -1,3 +1,4 @@
+//Listen for click event on pupil mark button and get pupil mark, assessment mark. Work out percentage and display in box
 submit.addEventListener('click', (e)=>{
 
     const mark = document.querySelector('#pupilMark').value;
